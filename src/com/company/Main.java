@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int dec_num, quot, i=1, j;
+        int dec_num, quot, i=1, k;
         int bin_num[] = new int[100];
         Scanner scan = new Scanner(System.in);
 
@@ -33,7 +33,7 @@ public class Main {
 
         //System.out.println(i);
         System.out.print("Binary number is: ");
-        for(int k = i-1; k>0; k--) {
+        for(k = i-1; k>0; k--) {
             System.out.print(bin_num[k]);
         }
     }
